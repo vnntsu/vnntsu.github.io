@@ -1,14 +1,13 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             Su Nguyen
+email:             vnntsu@gmail.com
+description:       iOS Engineer
+author:            vnntsu
+url:               "http://vnntsu.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  vnntsu
+github_username:   vnntsu
+facebook_username: vnntsu
 
 # Build settings
 markdown:          kramdown
