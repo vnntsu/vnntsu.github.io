@@ -1,5 +1,2 @@
-_site
-node_modules
-Gemfile.lock
-.sass-cache
-*.gem
+public/
+.idea/
