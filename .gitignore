@@ -1,2 +1,6 @@
-public/
-.idea/
+*.gem
+.bundle
+.sass-cache
+_site
+*.code-workspace
+vendor
