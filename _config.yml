@@ -8,6 +8,7 @@ title: Software Engineer
 email: vnntsu@gmail.com
 phone: +84 702 35 2040
 website: sunguyen.dev
+# quote: "Life is like riding a bicycle. To keep your balance you must keep moving!" --- Albert Einstein
 
 # Social links
 github_username:  vnntsu
@@ -24,6 +25,9 @@ about_content: | # this will include new lines to allow paragraphs
   Currently, I am working at home as a Freelancer.
 
   I am eager to be challenged in order to grow and further improve my IT skills
+about_quote: >
+  "Life is like riding a bicycle. To keep your balance you must keep moving!" --- Albert Einstein 
+
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -40,24 +44,6 @@ more_content: | # this will include new lines to allow paragraphs
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-  
-  **Tech skills**
-    - Implemented MVC and MVVM structure for project
-    - Built and integrated RESTful API
-    - Implemented iOS Push Notification service
-    - Integrated Firebase Analytics to know user trends
-    - Integrated CI/CD
-    - Implemented and built a Server-side using Vapor framework.
-    - Implemented Rxswift
-    - Unit testing
-    - Implemented Quick, Nimble and RxTest
-    - Implemented and understood Functional Programming
-    - Implemented and integrated Image Processing
-
-  **Soft skills**
-    - Team leader
-    - Mentor junior members and interns
-    - Presentation
 
 # Footer
 footer_show_references: true

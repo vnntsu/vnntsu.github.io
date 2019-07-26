@@ -1,10 +1,43 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Freelance
+  link: https://sunguyen.vn/
+  job_title: Software Engineer - iOS Developer
+  dates: Oct 2018 - Present
   quote: >
-   Short description of the company (optional)
+   "Code for food and code for fun"
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    I was asked to update an existing iOS apps to the latest version of iOS and to fix any issues caused by this as well as a few other existing issues. 
+    This project had a very tight time scale and I was able to complete it in very good time while providing regular updates to the client.
+
+- layout: right
+  company: Asian Tech Co., Ltd.
+  link: https://asiantech.vn/
+  job_title: iOS Developer
+  dates: Jun 2015 - Oct 2018 (3yrs 5mos)
+  quote: >
+   "Recoding history - growing with startups"
+  description: | # this will include new lines to allow paragraphs
+    During my time at AT I worked as part of an agile team building our own in house web based software and also a large scale website for an international client. I gained experience working with a continuous integration workflow using tools such as Jenkins and working with Amazon Web Services for deployments. We built most of our software using Symfony, Backbone, Marionette, Vue and Vuex.
+
+    For 6 months I was working on delivering a standalone web product for an international client that services over 600,000 users. This has been built from the ground up using Symfony to provide a backend API and Backbone for the front end. I also gained a lot of experience with Elasticsearch to provide search functionality of millions of entities to the front end. During the project I spent time out of hours communicating with the client, performing deployments and providing support.
+
+    Towards the end of my time at Simitive my role involved assisting with the company’s devOps, this included managing our AWS infrastructure as well as deploying and migrating sites. I also spend time configuring and maintaining our clients SSO, this mostly involves configuring new clients who are using AD FS, Shibboleth and CAS but also maintaining our software’s SSO functionality.
+    
+    **Tech skills**
+      - Implemented MVC and MVVM structure for project
+      - Built and integrated RESTful API
+      - Implemented iOS Push Notification service
+      - Integrated Firebase Analytics to know user trends
+      - Integrated CI/CD
+      - Implemented and built a Server-side using Vapor framework.
+      - Implemented Rxswift
+      - Unit testing
+      - Implemented Quick, Nimble and RxTest
+      - Implemented and understood Functional Programming
+      - Implemented and integrated Image Processing
+
+    **Soft skills**
+      - Team leader
+      - Mentor junior members and interns
+      - Presentation

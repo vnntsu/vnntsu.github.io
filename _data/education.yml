@@ -1,9 +1,8 @@
 # Education Template
-- layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
+- layout: top-middle
+  name: University of Science and Technology - The University of Da Nang
+  dates: Aug 2011 - Jun 2016
+  qualification: BSc Information Technology
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    During my time at university I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. 
+    I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
