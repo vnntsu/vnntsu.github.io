@@ -3,36 +3,27 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Nguyen T. Su
+title: Software Engineer
+email: vnntsu@gmail.com
+phone: +84 702 35 2040
+website: sunguyen.dev
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+github_username:  vnntsu
+twitter_username: vnntsu
+linkedin_username: vnntsu
+facebook_username: vnntsu
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Su and I'm a Software Engineer with over 4 years experience.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  Currently, I am working at home as a Freelancer.
+
+  I am eager to be challenged in order to grow and further improve my IT skills
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -49,6 +40,24 @@ more_content: | # this will include new lines to allow paragraphs
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  
+  **Tech skills**
+    - Implemented MVC and MVVM structure for project
+    - Built and integrated RESTful API
+    - Implemented iOS Push Notification service
+    - Integrated Firebase Analytics to know user trends
+    - Integrated CI/CD
+    - Implemented and built a Server-side using Vapor framework.
+    - Implemented Rxswift
+    - Unit testing
+    - Implemented Quick, Nimble and RxTest
+    - Implemented and understood Functional Programming
+    - Implemented and integrated Image Processing
+
+  **Soft skills**
+    - Team leader
+    - Mentor junior members and interns
+    - Presentation
 
 # Footer
 footer_show_references: true
