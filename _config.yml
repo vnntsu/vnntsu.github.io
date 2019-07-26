@@ -20,11 +20,12 @@ facebook_username: vnntsu
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Su and I'm a Software Engineer with over 4 years experience.
-
+  Hi, my name is Su and I'm a Software Engineer with over 4 years experience. I worked with <mark>iOS</mark> most of that time.
   Currently, I am working at home as a Freelancer.
 
-  I am eager to be challenged in order to grow and further improve my IT skills
+  I am eager to be challenged in order to grow and further improve my IT skills. I am always looking for opportunities to work with something new. 
+
+  The things that I currently have the most experience working with are: <mark>iOS</mark> <mark>ES6 Javascript</mark>, <mark>Java</mark>, <mark>SQL</mark>, <mark>git</mark>, <mark>CD/CI</mark> and <mark>AWS</mark> services.
 about_quote: >
   "Life is like riding a bicycle. To keep your balance you must keep moving!" --- Albert Einstein 
 

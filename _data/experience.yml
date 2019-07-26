@@ -1,5 +1,5 @@
 # Experience template
-- layout: left
+- layout: right
   company: Freelance
   link: https://sunguyen.vn/
   job_title: Software Engineer - iOS Developer
@@ -10,7 +10,11 @@
     I was asked to update an existing iOS apps to the latest version of iOS and to fix any issues caused by this as well as a few other existing issues. 
     This project had a very tight time scale and I was able to complete it in very good time while providing regular updates to the client.
 
-- layout: right
+    Sometimes, I work like a Project Manager
+
+    I also learnt some new tech skills related to <mark>Back-end Web</mark> Machine Learning, Data Science, etc.
+
+- layout: left
   company: Asian Tech Co., Ltd.
   link: https://asiantech.vn/
   job_title: iOS Developer
@@ -18,26 +22,44 @@
   quote: >
    "Recoding history - growing with startups"
   description: | # this will include new lines to allow paragraphs
-    During my time at AT I worked as part of an agile team building our own in house web based software and also a large scale website for an international client. I gained experience working with a continuous integration workflow using tools such as Jenkins and working with Amazon Web Services for deployments. We built most of our software using Symfony, Backbone, Marionette, Vue and Vuex.
-
-    For 6 months I was working on delivering a standalone web product for an international client that services over 600,000 users. This has been built from the ground up using Symfony to provide a backend API and Backbone for the front end. I also gained a lot of experience with Elasticsearch to provide search functionality of millions of entities to the front end. During the project I spent time out of hours communicating with the client, performing deployments and providing support.
-
-    Towards the end of my time at Simitive my role involved assisting with the company’s devOps, this included managing our AWS infrastructure as well as deploying and migrating sites. I also spend time configuring and maintaining our clients SSO, this mostly involves configuring new clients who are using AD FS, Shibboleth and CAS but also maintaining our software’s SSO functionality.
+    I decided to work full-time at Asian Tech right after graduation.
     
-    **Tech skills**
+    During my time at Asian Tech I was able to work on a large number of projects. 
+    I enjoy being able to work with clients to understand and surpass their expectations
+    
+    At Asian Tech I was also given the oppertunity to work with all of my core skills and to gain new skills in things such as Java. 
+    I also worked on a number of <mark>iOS</mark> applications.
+
+    Some of skills that I learnt at here:
+      - Designed, developed and distributed iOS applications.
       - Implemented MVC and MVVM structure for project
       - Built and integrated RESTful API
-      - Implemented iOS Push Notification service
-      - Integrated Firebase Analytics to know user trends
       - Integrated CI/CD
       - Implemented and built a Server-side using Vapor framework.
-      - Implemented Rxswift
+      - Researched and wrote Reactive Programming, RxSwift documents.
       - Unit testing
+      - Implemented Rxswift
       - Implemented Quick, Nimble and RxTest
       - Implemented and understood Functional Programming
+      - Integrated Firebase Analytics to know user trends
       - Implemented and integrated Image Processing
+      - Built and deploy services using Nginx, AWS services (EC2, S3, RDS) and Google Clouds.
+      - Used Github, Gitlab and Bitbucket for project repository.
+      - CD/CI with TravisCI, CircelCI and Fastlane.
+      - Team leader - Code reviewer
+      - As a code member of iOS team
+      - Mentor of junior members and interns
+      - Sharing technical knowledge through Workshop.
 
-    **Soft skills**
-      - Team leader
-      - Mentor junior members and interns
-      - Presentation
+- layout: right
+  company: Enclave
+  link: http://enclaveit.com/
+  job_title: Software Engineer
+  dates: Jan 2015 - Jun 2015
+  quote: >
+   "Reliable Engineering Solutions"
+  description: | # this will include new lines to allow paragraphs
+    I started working for Enclave company full-time during my fourth year at University. 
+    It was during this role that I learnt many of the fundamentals that I have been building on over the past 3 years.
+
+    I feel like having the opportunity to use a large range of different things early on in my career has given me the drive to always want to try new tools and frameworks
