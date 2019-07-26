@@ -17,7 +17,7 @@ facebook_username: vnntsu
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/me.jpg
+about_profile_image: assets/images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Su and I'm a Software Engineer with over 4 years experience.
 
