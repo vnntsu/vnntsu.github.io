@@ -3,4 +3,5 @@
 .sass-cache
 _site
 *.code-workspace
-vendor.DS_Store
+vendor
+.DS_Store
