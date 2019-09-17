@@ -1,6 +1,6 @@
 - layout: skill-list
   name: Programming
-  skill: <mark>Swift</mark>, <mark>Objective-C</mark>, Java, JavaScript.
+  skill: <mark>Swift</mark> , <mark>Objective-C</mark> , Java, JavaScript.
 
 - layout: skill-list
   name: Web FE, BE
@@ -12,7 +12,7 @@
 
 - layout: skill-list
   name: Framework
-  skill: <mark>RxSwift</mark>, RxJS.
+  skill: <mark>RxSwift</mark> , RxJS.
 
 - layout: skill-list
   name: CD/CI
@@ -24,8 +24,8 @@
 
 - layout: skill-list
   name: Machine Learning
-  skill: <mark>CoreML</mark>, Vision, TuriCreate, TensorFlow.
+  skill: <mark>CoreML</mark> , Vision, TuriCreate, TensorFlow.
 
 - layout: skill-list
   name: Other
-  skill: <mark>Git</mark>, Nginx, <mark>MVVM</mark>, MVC.
+  skill: <mark>Git</mark> , Nginx, <mark>MVVM</mark> , MVC.
