@@ -1,9 +1,31 @@
-# Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+- layout: skill-list
+  name: Programming
+  skill: <mark>Swift</mark>, <mark>Objective-C</mark>, Java, JavaScript.
+
+- layout: skill-list
+  name: Web FE, BE
+  skill: Vapor, Spring, HTML, CSS.
+
+- layout: skill-list
+  name: Database
+  skill: MySQL, SQL Server, Realm, CoreData.
+
+- layout: skill-list
+  name: Framework
+  skill: <mark>RxSwift</mark>, RxJS.
+
+- layout: skill-list
+  name: CD/CI
+  skill: Circle CI, Travis CI, Fastlane.
+
+- layout: skill-list
+  name: Cloud Service
+  skill: AWS Services (EC2, S3), Google Clouds.
+
+- layout: skill-list
+  name: Machine Learning
+  skill: <mark>CoreML</mark>, Vision, TuriCreate, TensorFlow.
+
+- layout: skill-list
+  name: Other
+  skill: <mark>Git</mark>, Nginx, <mark>MVVM</mark>, MVC.
