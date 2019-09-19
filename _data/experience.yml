@@ -1,9 +1,17 @@
-# Experience template
+- layout: left
+  company: DSoft
+  link: https://dsoft.ai/
+  job_title: iOS Developer
+  dates: Mar 2019 - Present
+  quote: >
+   "Plan ..."
+  description: | # this will include new lines to allow paragraphs
+
 - layout: right
   company: Freelance
   link: https://sunguyen.dev/
   job_title: Software Engineer - iOS Developer
-  dates: Oct 2018 - Present
+  dates: Oct 2018 - Mar 2019
   quote: >
    "Code for food and code for fun"
   description: | # this will include new lines to allow paragraphs
