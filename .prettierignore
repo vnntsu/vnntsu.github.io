@@ -1,0 +1,13 @@
+.next/
+node_modules/
+.env
+.env.*
+coverage/
+/playwright
+/test-results/
+/playwright-report/
+/blob-report/
+
+/.astro/
+build/
+dist/
