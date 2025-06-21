@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 
-import ProfilePictures from '@/assets/profile_pictures.jpg';
+import ProfilePicture from '@/assets/avatar.png';
 import { template, profile } from '@/settings';
 
 import SocialIcons from './SocialIcons.astro';
@@ -19,30 +19,24 @@ const { fullName, title } = profile;
       <div class='flex justify-center items-center flex-col'>
         <Image
           class='mask mask-circle size-44'
-          src={ProfilePictures}
+          src={ProfilePicture}
           alt={`Profile picture of ${fullName}`}
         />
-        <h1 class='text-lg font-black mt-8 hidden lg:block'>{title} <span>{fullName}</span></h1>
+        <h1 class='text-lg font-black mt-8 hidden lg:block'><span>{fullName}</span></h1>
       </div>
       <div class='mx-4 mt-16'>
         <ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>
           <li>
             <a href=`${template.base}/` class='text-lg'>Home</a>
           </li>
-          <li>
-            <a href=`${template.base}/research` class='text-lg'>Research</a>
-          </li>
-          <li>
-            <a href=`${template.base}/papers` class='text-lg'>Papers</a>
-          </li>
-          <li>
-            <a href=`${template.base}/cv` class='text-lg'>CV</a>
-          </li>
           {isBlogPopulated &&
           <li>
             <a href=`${template.base}/blog/1` class='text-lg'>Blog</a>
           </li>
           }
+          <li>
+            <a href=`${template.base}/about` class='text-lg'>About</a>
+          </li>
         </ul>
       </div>
     </div>

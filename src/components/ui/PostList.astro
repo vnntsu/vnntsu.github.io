@@ -1,10 +1,10 @@
 ---
 import { highlightAuthor } from '@/lib/utils';
-import { isSkill } from '@/types/cv';
-import type { Skill, Publication } from '@/types/cv';
+import { isSkill } from '@/types/about';
+import type { Skill, Post } from '@/types/about';
 
 interface Props {
-  elements: (Skill | Publication)[]
+  elements: (Skill | Post)[]
 }
 
 const { elements } = Astro.props;

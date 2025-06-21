@@ -7,13 +7,13 @@ export const experiences = [
     description: '',
   },
   // {
-  // 	company: 'Radium Institute (Institut du Radium)',
+  // 	company: 'Radium company (Institut du Radium)',
   // 	time: '1914 - 1934',
   // 	title: 'Director',
   // 	location: 'Paris, France',
   // 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
   // },
-];
+]
 
 export const education = [
   {
@@ -30,7 +30,7 @@ export const education = [
   // 	location: 'Paris, France',
   // 	description: 'Graduated at the top of her class in physics and second in mathematics.',
   // },
-];
+]
 
 export const skills = [
   {
@@ -41,9 +41,9 @@ export const skills = [
   // 	title: 'Experimental Techniques',
   // 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',
   // },
-];
+]
 
-export const publications = [
+export const posts = [
   {
     title: '',
     authors: '',
@@ -52,12 +52,4 @@ export const publications = [
     link: '',
     abstract: '',
   },
-  // {
-  // 	title: 'The Radiation of Uranium Compounds',
-  // 	authors: 'Marie Curie',
-  // 	journal: 'Comptes Rendus de l’Académie des Sciences',
-  // 	time: '1898',
-  // 	link: '#',
-  // 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
-  // },
-];
+]

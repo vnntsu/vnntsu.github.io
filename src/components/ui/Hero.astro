@@ -3,7 +3,8 @@ import { Image } from 'astro:assets'
 
 import SocialIcons from './SocialIcons.astro'
 
-const { fullName, title, institute, profilePicture } = Astro.props
+const { fullName, title, company, profilePicture, information, titleReference, companyReference } =
+  Astro.props
 ---
 
 <div class="flex-1">
@@ -11,11 +12,40 @@ const { fullName, title, institute, profilePicture } = Astro.props
     Welcome! I'm <span class="text-secondary">{fullName}</span>
   </h1>
   <p class="text-xl text-gray-600 mb-4">
-    {title}{institute ? ` @ ${institute}` : ''}
+    {
+      titleReference ? (
+        <a
+          href={titleReference}
+          target="_blank"
+          class="text-primary hover:text-primary-focus underline"
+        >
+          {title}
+        </a>
+      ) : (
+        { title }
+      )
+    }
+    {' @ '}
+    {
+      company && (
+        <>
+          {companyReference ? (
+            <a
+              href={companyReference}
+              target="_blank"
+              class="text-primary hover:text-primary-focus underline"
+            >
+              {company}
+            </a>
+          ) : (
+            company
+          )}
+        </>
+      )
+    }
   </p>
   <p class="text-lg mb-6">
-    Brief impactful description of your research focus and academic mission. Highlight your key
-    contributions and areas of expertise.
+    {information}
   </p>
   <div class="flex gap-4">
     <SocialIcons />

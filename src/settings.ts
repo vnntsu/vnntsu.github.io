@@ -1,28 +1,32 @@
 export const profile = {
   fullName: 'Su Nguyen T.',
+  nickname: 'su.t',
   title: 'Technical Lead',
-  institute: 'Nimblehq',
-  author_name: 'Su T.', // Author name to be highlighted in the papers section
-  research_areas: [
+  titleReference: 'https://nimblehq.co/compass/team/roles/technical-lead/',
+  company: 'nimblehq',
+  companyReference: 'https://nimblehq.co/',
+  author_name: 'Su T.',
+  information: [
     {
-      title: 'Software Engineering',
-      description: 'Brief description of the research interest',
-      field: 'software engineering',
+      title: 'Technical Lead',
+      description: `Experienced Software Engineering with expertise in full-stack development.
+        Passionate about building scalable solutions and delivering high-quality software products.`,
+      field: 'Software Engineering, Team Leadership',
     },
   ],
-};
+}
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
   email: 'vnnts@gmail.com',
   linkedin: 'https://www.linkedin.com/in/vnntsu',
-  x: 'https://www.x.com/vnntsu',
   github: 'https://github.com/vnntsu',
+  x: '',
   gitlab: '',
   scholar: '',
   inspire: '',
   arxiv: '',
-};
+}
 
 export const template = {
   website_url: 'https://localhost:4321', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
@@ -33,10 +37,10 @@ export const template = {
   excerptLength: 200,
   postPerPage: 5,
   base: '', // Repository name starting with /
-};
+}
 
 export const seo = {
-  default_title: '{profile.fullName} Web',
-  default_description: '{profile.fullName} Web is personal website.',
-  default_image: '/images/sut-web.png',
-};
+  default_title: `${profile.nickname}.dev`,
+  default_description: `${profile.nickname}.dev is a personal website.`,
+  default_image: '/images/avatar.png',
+}
